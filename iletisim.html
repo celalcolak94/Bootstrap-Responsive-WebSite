@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="ust-kisim-sayfalar">
+        <nav class="navbar navbar-expand-lg  nav-bg">
+            <div class="container p-0">
+                <a class="navbar-brand" href="index.html">
+                    <img class="img-fluid logo" src="image/logo.jpg" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item d-flex align-items-center p-2">
+                            <a class="nav-link active" aria-current="page" href="hakkimizda.html">Hakkımızda</a>
+                            <span class="ayrac">|</span>
+                        </li>
+                        <li class="nav-item d-flex align-items-center p-2">
+                            <a class="nav-link" href="hizmetlerimiz.html">Hizmetlerimiz</a>
+                            <span class="ayrac">|</span>
+                        </li>
+                        <li class="nav-item d-flex align-items-center p-2">
+                            <a class="nav-link" href="portfoy.html">Portföyümüz</a>
+                            <span class="ayrac">|</span>
+                        </li>
+                        <li class="nav-item d-flex align-items-center p-2">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                            <span class="ayrac">|</span>
+                        </li>
+                        <li class="nav-item d-flex align-items-center p-2">
+                            <a class="nav-link" href="iletisim.html">İletişim</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 d-flex align-items-center header-yukseklik">
+                    <img class="img-fluid logo-2" src="image/logo.jpg" alt="">
+                    <div class="sayfa-baslik ms-4">
+                        <h3>İLETİŞİM</h3>
+                        <p class="fw-bold">
+                            Hizmetlerimiz ya da teklifler hakkında bizlerle 7/24 iletişim kurmak için aşağıdaki formu kullanabilirsiniz.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container my-3">
+        <div class="row">
+            <div class="col-md-6">
+                <h4>İletişim Formu</h4>
+                <hr>
+                <form>
+                    <div class="mb-3">
+                        <label for="adSoyad" class="form-label">Ad Soyad</label>
+                        <input type="text" class="form-control" id="adSoyad" placeholder="Adınız ve Soyadınız">
+                      </div>
+                    <div class="mb-3">
+                        <label for="eMail" class="form-label">Email addres</label>
+                        <input type="email" class="form-control" id="eMail" placeholder="Email Adresiniz">
+                      </div>
+                      <div class="mb-3">
+                        <label for="konu" class="form-label">Konu</label>
+                        <select class="form-select" id="konu" aria-label="Default select example">
+                            <option selected>Teklif Alma</option>
+                            <option value="1">Bilgi Edinme</option>
+                            <option value="2">Muhasebe</option>
+                            <option value="3">Bilgi İşlem</option>
+                          </select>
+                      </div>
+                      <div class="mb-3">
+                        <label for="mesaj" class="form-label">Mesaj</label>
+                        <textarea class="form-control" id="mesaj" rows="3"></textarea>
+                      </div>
+                      <div class="mb-3">
+                        <button class="btn btn-success btn-lg">
+                            <i class="fa-solid fa-envelope me-1 gonder-icon"></i>
+                            Gönder
+                        </button>
+                      </div>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <img class="img-fluid p-5" src="image/message.jpg" alt="">
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-6">
+                <h4><i class="fa-solid fa-location-dot me-2"></i>Adres</h4>
+                <hr>
+                <p>Kozyatağı, Buket Sk. No:14, 34742 Kadıköy/İstanbul</p>
+                <h4><i class="fa-solid fa-phone me-2"></i>Telefon</h4>
+                <hr>
+                <p>0531 500 82 71</p>
+                <h4><i class="fa-solid fa-envelope me-2"></i>E-mail</h4>
+                <hr>
+                <p>celalcolak94@gmail.com</p>
+            </div>
+            <div class="col-md-6">
+                <hr>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3012.5512223336696!2d29.08718257776834!3d40.96940915852622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac7acbc063afd%3A0xe7c9e29a96a1fbab!2zS296enkgQWzEscWfdmVyacWfIFZlIEvDvGx0w7xyIE1lcmtlemk!5e0!3m2!1str!2str!4v1685127835273!5m2!1str!2str" height="300px" width="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid footer">
+        <div class="row">
+            <div class="col-md-12 footer-sutun d-flex flex-column justify-content-center align-items-center">
+                <div class="icons mt-3">
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-square-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+                <p>Copyright 2023 Tüm Hakları Saklıdır.</p>
+                <p>Celal Çolak</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="bootstrap/bootstrap.js"></script>
+</body>
+
+</html>

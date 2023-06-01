@@ -1,0 +1,227 @@
+@media screen and (max-width:992px) {
+    .nav-item {
+        justify-content: center;
+    }
+
+    .ayrac {
+        display: none;
+    }
+
+    .nav-item:hover {
+        background-color: black;
+    }
+
+    .calisanlar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .ne-yapariz img{
+        width: 400px;
+        margin-bottom: 20px;
+    }
+}
+
+.ust-kisim {
+    background-image: url(image/background.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.nav-bg {
+    background-color: rgba(119, 119, 119, 0.342);
+}
+
+.logo {
+    height: 50px;
+}
+
+.nav-item a {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav-item a:hover {
+    /* color: #f4b70b; */
+    color: #9c394d;
+}
+
+.ayrac {
+    font-size: 20px;
+    margin: 0px 20px;
+    color: white;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.logo-2 {
+    height: 150px;
+}
+
+.nav-link:focus {
+    color: #9c394d;
+}
+
+/* Teklif Kısmı */
+.teklif {
+    border-top: 1px solid #9c394d5b;
+    border-bottom: 1px solid #9c394d5b;
+    background-color: #f6f4f5;
+}
+
+.imza {
+    font-size: 20px;
+}
+
+.tirnak {
+    color: #9c394d;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* Teklif Kısmı */
+
+/* Hizmetlerimiz Kısmı */
+.hizmetlerimiz {
+    background-color: #baa497;
+}
+
+/* Hizmetlerimiz Kısmı */
+
+/* Biz-Kimiz Kısmı */
+.kimiz {
+    background-color: #f6f4f5;
+}
+
+.img-kimiz-yukseklik {
+    height: 300px;
+}
+
+/* Biz-Kimiz Kısmı */
+
+/* Çalışanlar Kısmı */
+.calisan img {
+    height: 150px;
+}
+
+/* Çalışanlar Kısmı */
+
+/* Söz Kısmı */
+.slogan {
+    background-image: url(image/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.tirnak1 {
+    color: #9c394d;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.soz {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.roket-icon {
+    font-size: 100px;
+}
+/* Söz Kısmı */
+
+/* Çalışmalarımız ve footer Kısmı */
+.calismalar{
+    background-color: #baa497;
+    padding: 1.5rem 8rem;
+}
+
+.calisma{
+    padding: 5px;
+    border: 1px solid #baa497;
+    cursor: pointer;
+}
+
+.calisma:hover{
+    border: 1px solid #9c394d;
+}
+
+.calisma img{
+height: 150px;
+}
+
+.footer{
+    background-color: #9c394d;
+    height: 150px;
+    color: #95a5a6;
+}
+
+.footer-sutun{
+    height: 150px;
+}
+
+.icons{
+    font-size: 50px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+/* Çalışmalarımız ve footer Kısmı */
+
+/* Sayfalar */
+.ust-kisim-sayfalar {
+    background-image: url(image/background.jpg);
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header-yukseklik{
+    height: calc(50vh - 70px);
+}
+
+.sayfa-baslik h3{
+    color: #9c394d;
+    font-weight: bold;
+}
+/* Sayfalar */
+
+/* Hakkımızda Kısmı */
+.hakkimizda-resim-yukseklik{
+    height: 300px;
+}
+/* Hakkımızda Kısmı */
+
+/* Portföyümüz Kısmı */
+.portfoy-resim-yukseklik{
+    height: 150px;
+}
+/* Portföyümüz Kısmı */
+
+/* Blog Kısmı */
+.blog-resim-yukseklik{
+    height: 200px;
+    width: 100%;
+}
+
+.devam:hover{
+    color: black !important;
+}
+/* Blog Kısmı */
+
+/* İletişim Kısmı */
+.gonder-icon{
+    font-size: 16px;
+}
